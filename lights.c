@@ -11,6 +11,6 @@ void main()
 		int multiplication = switch0 + switch1;
 		int hex0 = multiplication % 10;
 		int hex1 = multiplication / 10;
-		*ledin = hex0 + hex1;
+		*ledin = hex0 + hex1*16;
 	}
 }
